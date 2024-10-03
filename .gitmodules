@@ -1,0 +1,33 @@
+[submodule "endpoints-under-test/c-h2o"]
+	path = endpoints-under-test/c-h2o
+	url = git@github.com:brycolem/endpoint-c-h2o.git
+[submodule "endpoints-under-test/nest-express-typeorm"]
+	path = endpoints-under-test/nest-express-typeorm
+	url = git@github.com:brycolem/endpoint-nest-express-typeorm.git
+[submodule "endpoints-under-test/nest-fastify-pgnative"]
+	path = endpoints-under-test/nest-fastify-pgnative
+	url = git@github.com:brycolem/endpoint-nest-fastify-pgnative.git
+[submodule "endpoints-under-test/ruby-rails-postgres"]
+	path = endpoints-under-test/ruby-rails-postgres
+	url = git@github.com:brycolem/endpoint-ruby-rails-postgres.git
+[submodule "endpoints-under-test/scala-pekko-sbt-native"]
+	path = endpoints-under-test/scala-pekko-sbt-native
+	url = git@github.com:brycolem/endpoint-scala-pekko-sbt-native.git
+[submodule "endpoints-under-test/springboot-web-jpa"]
+	path = endpoints-under-test/springboot-web-jpa
+	url = git@github.com:brycolem/endpoint-springboot-web-jpa.git
+[submodule "endpoints-under-test/springboot-webflux-r2dbc"]
+	path = endpoints-under-test/springboot-webflux-r2dbc
+	url = git@github.com:brycolem/endpoint-springboot-webflux-r2dbc.git
+[submodule "endpoints-under-test/tcl-tclhttp-pg"]
+	path = endpoints-under-test/tcl-tclhttp-pg
+	url = git@github.com:brycolem/endpoint-tcl-tclhttp-pg.git
+[submodule "endpoints-under-test/ultimate-express-pgconnect"]
+	path = endpoints-under-test/ultimate-express-pgconnect
+	url = git@github.com:brycolem/endpoint-ultimate-express-pgconnect.git
+[submodule "endpoints-under-test/vertx-postgres-reactive"]
+	path = endpoints-under-test/vertx-postgres-reactive
+	url = git@github.com:brycolem/endpoint-vertx-postgres-reactive.git
+[submodule "endpoints-under-test/go_buffalo"]
+	path = endpoints-under-test/go_buffalo
+	url = git@github.com:brycolem/endpoint-go_buffalo.git
