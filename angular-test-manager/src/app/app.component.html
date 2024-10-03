@@ -1,0 +1,21 @@
+<h1>Applications</h1>
+<h2>Average call time: {{ averageCallTime }} based on: {{ previousCalls?.length }} calls</h2>
+<h3>Max call time: {{ maxCallTime }}</h3>
+<h3>Min call time: {{ minCallTime }}</h3>
+<h3>96th % call time: {{ pXXCallTime(96) }}</h3>
+Current count: {{ count }} Total Time: {{ totalTime }} <br>
+<button (click)="startTest()">Start Test</button>
+<ul>
+  @for (app of applicationService.applications(); track app.id) {
+    <li>
+      <strong>{{ app.title }}</strong> - {{ app.employer }}
+        @defer (on idle; when app.notes.length) {
+          <ul>
+            @for (note of app.notes; track note.id) {
+              <li>{{note.noteText}}</li>
+            }
+          </ul>
+        }
+    </li>
+  }
+</ul>

@@ -31,3 +31,9 @@
 [submodule "endpoints-under-test/go_buffalo"]
 	path = endpoints-under-test/go_buffalo
 	url = git@github.com:brycolem/endpoint-go_buffalo.git
+[submodule "endpoints-under-test/dart-dart_frog"]
+	path = endpoints-under-test/dart-dart_frog
+	url = git@github.com:brycolem/endpoint-dart-dart_frog.git
+[submodule "endpoints-under-test/python-fastapi"]
+	path = endpoints-under-test/python-fastapi
+	url = git@github.com:brycolem/endpoint-python-fastapi.git
