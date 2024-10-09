@@ -55,7 +55,7 @@ export class AppComponent {
     this.testBegin = new Date().getTime();
     this.count = 0;
     this.totalTime = '';
-    const batchSize = 15;
+    const batchSize = 20;
     for (let i = 0; i < batchSize; i++) {
       this.userLoop();
     }
@@ -134,7 +134,7 @@ export class AppComponent {
     Current count: 10000 Total Time: 54.143s */
 
   private userLoop(): void {
-    const totalBatches = 250;
+    const totalBatches = 500;
 
     const batches = Array.from({ length: totalBatches }, (_, i) => i + 1);
 

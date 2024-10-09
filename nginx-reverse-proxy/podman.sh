@@ -13,7 +13,7 @@ podman build -t $IMAGE_NAME .
 
 podman run -d \
   -p 8000:8000 \
-  --network=host \
+  --network bench-network \
   --replace \
   --name $IMAGE_NAME \
   $IMAGE_NAME:latest
