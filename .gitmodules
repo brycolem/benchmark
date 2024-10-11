@@ -37,3 +37,6 @@
 [submodule "endpoints-under-test/python-fastapi"]
 	path = endpoints-under-test/python-fastapi
 	url = git@github.com:brycolem/endpoint-python-fastapi.git
+[submodule "endpoints-under-test/c-sharp-aspcore-ado-pg"]
+	path = endpoints-under-test/c-sharp-aspcore-ado-pg
+	url = https://github.com/brycolem/endpoint-c-sharp-aspcore-ado-pg
