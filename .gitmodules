@@ -39,4 +39,7 @@
 	url = git@github.com:brycolem/endpoint-python-fastapi.git
 [submodule "endpoints-under-test/c-sharp-aspcore-ado-pg"]
 	path = endpoints-under-test/c-sharp-aspcore-ado-pg
-	url = https://github.com/brycolem/endpoint-c-sharp-aspcore-ado-pg
+	url = git@github.com/brycolem/endpoint-c-sharp-aspcore-ado-pg
+[submodule "endpoints-under-test/vb-aspcore-ado-pg"]
+	path = endpoints-under-test/vb-aspcore-ado-pg
+	url = git@github-brycolem:brycolem/endpoint-vb-aspcore-ado-pg.git
