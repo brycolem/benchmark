@@ -41,9 +41,9 @@ ensure_network_exists(network_name)
 
 local build_command = "podman build -t postgres_bench ."
 local run_command = string.format(
-    "podman run --replace -d --name postgres_bench --network bench-network " ..
+    "podman run --replace -d --name postgres_bench --network=host " ..
     "-e POSTGRES_DB=%q -e POSTGRES_USER=%q -e POSTGRES_PASSWORD=%q " ..
-    "-p %s:5432 postgres_bench",
+    "--ulimit nofile=65536:65536 -p %s:5432 postgres_bench",
     DB_NAME, DB_USER, DB_PWD, DB_PORT
 )
 

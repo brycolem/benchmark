@@ -13,7 +13,8 @@ podman build -t $IMAGE_NAME .
 
 podman run -d \
   -p 8000:8000 \
-  --network bench-network \
+  --network=host \
+  --ulimit nofile=65536:65536 \
   --replace \
   --name $IMAGE_NAME \
   $IMAGE_NAME:latest
